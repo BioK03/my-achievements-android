@@ -1,0 +1,12 @@
+{
+    "line-counter.excludes": [
+        "**/build/**",
+        "**/libs/**",
+        "**/src/androidTest/**",
+        "**/src/main/assets/**",
+        "**/src/main/res/**",
+        "**/src/test/**",
+        "**/gradle/**"
+
+    ]
+}

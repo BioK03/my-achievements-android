@@ -25,20 +25,14 @@
             android:layout_height="131dp"
             android:src="@drawable/profilepicture"
             android:layout_gravity="center_horizontal"
-            android:id="@+id/profileImageView" />
+            android:id="@+id/circleView" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Damien CLARAS"
             android:textAlignment="center"
-            android:textSize="30sp"
-            android:id="@+id/username" />
-
-        <ListView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/listView" />
+            android:textSize="30sp" />
 
 
     </LinearLayout>

@@ -18,7 +18,7 @@ public class ProfileActivity extends AppCompatActivity {
         Bitmap bitmap = BitmapFactory.decodeResource(this.getResources(),R.drawable.profilepicture);
         Bitmap circularBitmap = ImageConverter.getRoundedCornerBitmap(bitmap);
 
-        ImageView circularImageView = (ImageView)findViewById(R.id.profileImageView);
+        ImageView circularImageView = (ImageView)findViewById(R.id.circleView);
         circularImageView.setImageBitmap(circularBitmap);
     }
 }
